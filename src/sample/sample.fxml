@@ -14,12 +14,12 @@
    <center>
       <Canvas fx:id="canvas" height="395.0" onMouseDragged="#handleMouseDrag" onMouseEntered="#handleMouseEnter" onMouseReleased="#handleMouseRelease" width="605.0" BorderPane.alignment="CENTER" />
    </center>
-   <bottom>
+   <top>
       <HBox prefHeight="62.0" prefWidth="606.0" BorderPane.alignment="CENTER">
          <children>
             <Button fx:id="drawButton" mnemonicParsing="false" onAction="#handleDraw" prefHeight="104.0" prefWidth="166.0" text="DrawShape" />
             <Button fx:id="freeButton" mnemonicParsing="false" onAction="#handleFree" prefHeight="102.0" prefWidth="158.0" text="Free-hand" />
          </children>
       </HBox>
-   </bottom>
+   </top>
 </BorderPane>
